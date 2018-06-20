@@ -1,0 +1,28 @@
+{
+  "name": "gatsby-source-thingiverse",
+  "version": "0.0.1",
+  "description": "Gatsby plugin that fetches things from Thingiverse",
+  "repository": "https://github.com/sabatesduran/gatsby-source-thingiverse.git",
+  "author": "Dídac Sabatés <sabatesduran@gmail.com>",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "thingiverse",
+    "thing"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir . --ignore __tests__",
+    "prepublish": "yarn build"
+  },
+  "dependencies": {
+    "node-fetch": "^2.1.2",
+    "query-string": "^6.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.44",
+    "@babel/core": "^7.0.0-beta.44",
+    "@babel/preset-env": "^7.0.0-beta.44",
+    "cross-env": "^5.1.3"
+  }
+}
