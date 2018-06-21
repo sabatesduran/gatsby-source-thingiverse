@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-thingiverse",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gatsby plugin that fetches things from Thingiverse",
   "repository": "https://github.com/sabatesduran/gatsby-source-thingiverse.git",
   "author": "Dídac Sabatés <sabatesduran@gmail.com>",
